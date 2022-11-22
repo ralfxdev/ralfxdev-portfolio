@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ralfxdev-portfolio</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/icon-dev.svg" />
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- #MAIN -->
+
+    <main>
+      <!-- #SIDEBAR -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/my-picture.jpg"
+              alt="Randy López"
+              width="80"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="">Randy López</h1>
+
+            <p class="title">Software Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a
+                  href="mailto:lopezalexander1019@gmail.com"
+                  class="contact-link"
+                  >lopezalexander1019@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+50232387521" class="contact-link"
+                  >+502 3238-7521</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2001-06-28">June 28, 2001</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Guatemala</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/randy-l%C3%B3pez-b72a08204/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/ralfxdev" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://linktr.ee/ralfxdev" class="social-link">
+                <ion-icon name="link-outline"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!-- #main-content -->
+
+      <div class="main-content">
+        <!-- #NAVBAR -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!-- #ABOUT -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I'm the founder of Kubely, I work in Web Development & Design. I
+              like to turn complex problems into simple, beautiful and intuitive
+              designs.
+            </p>
+
+            <p>
+              My job is to build your website so that it is functional and
+              user-friendly but at the same time attractive. Moreover, I add
+              personal touch to your product and make sure that is eye-catching
+              and easy to use. My aim is to bring across your message and
+              identity in the most creative way.
+            </p>
+          </section>
+
+          <!-- service -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-design.svg"
+                    alt="design icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web design</h4>
+
+                  <p class="service-item-text">
+                    The most modern and high-quality design made at a
+                    professional level.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!-- skills -->
+
+          <section class="skills">
+            <h3 class="h3 skills-title">My Skills</h3>
+
+            <ul class="skills-list has-scrollbar">
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-javascript"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-react"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-python"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-laravel"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-nodejs"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-wordpress"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-html5"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-css3"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-docker"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-npm"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-vercel"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="terminal"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-figma"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-github"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="logo-markdown"></ion-icon>
+                </a>
+              </li>
+
+              <li class="skills-item">
+                <a href="#">
+                  <ion-icon name="server"></ion-icon>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- #RESUME -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Kubely / Founder & Developer
+                </h4>
+
+                <span>2022 —  present</span>
+
+                <p class="timeline-text">
+                  At Kubely we provide quality software to different industries.
+                  Our mission is to solve with solid technologies
+                  the problems that our clients face in their companies.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Cian Coders / Software Developer
+                </h4>
+
+                <span>June 2022 — October 2022</span>
+
+                <p class="timeline-text">
+                  Development and Support of applications, working with the
+                  frontend and backend. Using technologies such as: Javascript,
+                  Reactjs, Nextjs, Python, Django.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Cian Coders / Trainee</h4>
+
+                <span>March 2022 — May 2022</span>
+
+                <p class="timeline-text">
+                  Development of a parking system, with check-in and check-out,
+                  customers, rates, vehicles and Auth. Using technologies such
+                  as: Javascript, Reactjs, Python, Django, JWT.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Exum Guatemala / Laravel Developer
+                </h4>
+
+                <span>February 2022 — May 2022</span>
+
+                <p class="timeline-text">
+                  Developing views of a system ERP, using the Blade template
+                  engine. Using technologies such as: PHP, Laravel, Tailwind
+                  CSS, Bitbucket, Jira, Slack.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Freelancer / Programmer & Designer
+                </h4>
+
+                <span>2021 — present</span>
+
+                <p class="timeline-text">
+                  Development and Design of web applications. Using
+                  technologies such as: HTML, CSS, Javascript, PHP,
+                  JQuery, Bootstrap, Wordpress and MySQL.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Ingeniería En Sistemas De Información
+                </h4>
+
+                <span>2020 — 2021</span>
+
+                <p class="timeline-text">
+                  Universidad Mariano Gálvez De Guatemala
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Inglés Básico</h4>
+
+                <span>2019</span>
+
+                <p class="timeline-text">Academia My English Class</p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">Fundamentos De Redes</h4>
+
+                <span>2018</span>
+
+                <p class="timeline-text">
+                  Instituto Técnico De Capacitación Y Productividad INTECAP
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Instalación Y Configuración De Servidores De Microsoft
+                </h4>
+
+                <span>2017</span>
+
+                <p class="timeline-text">
+                  Instituto Técnico De Capacitación Y Productividad INTECAP
+                </p>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!-- #PORTFOLIO -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web design</button>
+              </li>
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web design</button>
+                </li>
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://www.kubely.tk/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-1.jpg"
+                      alt="Kubely"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Kubely</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://www.total-engineering-service.tk/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-2.jpg"
+                      alt="TES"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Total Engineering Service</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://www.figma.com/file/wgEYGmAld6bGLTMsOAQwvS/parking-app?node-id=0%3A1&t=KiosujvUMdpYTJMc-1">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-3.jpg"
+                      alt="Parking-app"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Parking-app</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://ralfxdev-movies-react.netlify.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-4.jpg"
+                      alt="Movies React"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Movies React</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://ralfxdev-rick-and-morty.netlify.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-5.jpg"
+                      alt="Rick and Morty"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Rick and Morty</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://ralfxdev-animal-crossing.netlify.app/">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-6.jpg"
+                      alt="Animal Crossing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Animal Crossing</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://github.com/ralfxdev/parking-app">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-7.jpg"
+                      alt="Parking-app"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Parking-app</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://github.com/ralfxdev/api-veterinaria">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/project-8.jpg"
+                      alt="API Veterinary"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">API Veterinary</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!-- #CONTACT -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://maps.google.com/maps?q=El%20progreso%20jutiapa&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                width="400"
+                height="300"
+                loading="lazy"
+              ></iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form
+              action="https://formsubmit.co/lopezalexander1019@gmail.com"
+              method="POST"
+              class="form"
+              data-form
+            >
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <input
+                type="hidden"
+                name="_next"
+                value="http://ralfxdev-portfolio.tk/"
+              />
+              <input type="hidden" name="_captcha" value="false" />
+              <input type="hidden" name="_template" value="table" />
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!-- custom js link -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--  ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
